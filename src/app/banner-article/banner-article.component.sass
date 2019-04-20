@@ -1,0 +1,36 @@
+.wrap-banner-arti
+    display: grid
+    // border: solid red 1px
+    position: relative
+    top: 5vh
+    width: 90vw
+    height: 60vh
+    margin: auto
+    align-items: center
+    justify-items: center
+    grid-template-columns: 1fr 1fr 1fr
+    grid-template-areas: "a b c"
+
+.banner-arti
+    display: grid
+    justify-items: center
+    align-items: center
+    width: 250px
+    height: 250px
+    text-align: center;
+    // border: solid red 1px
+    &:hover 
+        animation: big 0.5s linear forwards
+.banner-arti 1
+    grid-area: a
+.banner-arti 2
+    grid-area: b
+.banner-arti 3
+    grid-area: c
+.banner-arti 
+
+@keyframes big
+    100%
+        box-shadow: 0 20px 20px #929292
+        width: 300px
+        height: 300px

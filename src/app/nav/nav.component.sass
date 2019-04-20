@@ -1,0 +1,39 @@
+header
+    background-color: red
+    display: grid
+    grid-template: 10vh / 10fr 90vw 10fr
+    grid-template-areas: ". navA ."
+    box-sizing: content-box
+
+h1
+    color: white
+    font-size: 3rem
+
+li, a
+    color: white
+    text-decoration: none
+    list-style: none
+    font-size: 1rem
+
+.nav 
+    grid-area: navA
+    width: 90vw
+    display: grid
+    grid-template: 10vh / 1fr 1fr 1fr
+    grid-template-areas: "logo . nav2"
+    box-sizing: content-box
+
+.nav-logo
+    display: grid
+    grid-area: logo
+
+.nav-items
+    display: grid
+    grid-area: nav2
+    justify-items: center;
+    align-items: center
+
+
+.nav-items ul li 
+    display: inline-block
+    margin: 10px
