@@ -1,0 +1,37 @@
+.footer
+    margin-top: 5vh
+    display: grid
+    grid-template: 50vh / 1fr 90vw 1fr
+    grid-template-areas: ". footerWrap ."
+    background-color: red
+    // border: solid red 1px
+
+.footer-wrap
+    grid-area: footerWrap
+    // background-color: white
+    display: grid
+    grid-template: 1fr / 1fr 1fr 1fr 1fr
+    grid-template-areas: "a b c d"
+    grid-gap: 10px
+    box-sizing: content-box
+
+.ejefo1
+    grid-area: a
+    // background-color: blue
+    padding: 30px
+.ejefo2
+    grid-area: b
+    // background-color: blue 
+    padding: 30px
+.ejefo3
+    // background-color: blue 
+    grid-area: c
+    padding: 30px
+
+.ejefo4
+    grid-area: d
+    // background-color: blue 
+    padding: 30px
+li
+    list-style: none
+    color: white

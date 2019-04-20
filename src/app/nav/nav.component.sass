@@ -1,8 +1,8 @@
-header
+.header
     background-color: red
     display: grid
-    grid-template: 10vh / 10fr 90vw 10fr
-    grid-template-areas: ". navA ."
+    grid-template: 10vh / 1fr 90vw 1fr
+    grid-template-areas: ". nav ."
     box-sizing: content-box
 
 h1
@@ -16,7 +16,7 @@ li, a
     font-size: 1rem
 
 .nav 
-    grid-area: navA
+    grid-area: nav
     width: 90vw
     display: grid
     grid-template: 10vh / 1fr 1fr 1fr
@@ -28,9 +28,10 @@ li, a
     grid-area: logo
 
 .nav-items
+
     display: grid
     grid-area: nav2
-    justify-items: center;
+    justify-items: right;
     align-items: center
 
 
