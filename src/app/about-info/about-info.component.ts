@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./about-info.component.sass']
 })
 export class AboutInfoComponent implements OnInit {
-
+  minSay: string = 'Loren Ipsus';
+  say: string = 'Loren Ipsus';
   constructor() { }
 
   ngOnInit() {

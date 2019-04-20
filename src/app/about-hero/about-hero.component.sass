@@ -1,0 +1,40 @@
+.about-hero-wrap
+    display: grid
+    grid-template: 30vw / 1fr 90vw 1fr
+    grid-template-areas: ". about-hero ."
+    
+.about-hero
+    display: grid
+    grid-area: about-hero
+    grid-template: 1fr 1fr / 1fr 1fr 1fr 1fr 1fr 1fr
+    grid-template-areas: "a a b c c c" "a a b2 c c c"
+    // border: solid red 1px
+    grid-gap: 15px
+    box-sizing: content-box
+
+
+.about-hero-a
+    grid-area: a
+    // background-color: blue
+    overflow: hidden
+    height: 100%
+.about-hero-b
+    grid-area: b
+    // background-color: blue
+    overflow: hidden
+    height: 100%
+
+.about-hero-b2
+    grid-area: b2
+    // background-color: blue
+    overflow: hidden
+    height: 100%
+
+.about-hero-c
+    display: grid
+    align-items: center
+    grid-area: c
+    // background-color: blue
+
+.abuot-c-wrap
+    height: 60%
