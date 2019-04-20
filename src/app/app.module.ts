@@ -11,6 +11,8 @@ import { HeroComponent } from './hero/hero.component';
 import { BannerArticleComponent } from './banner-article/banner-article.component';
 import { HeroHomeComponent } from './hero-home/hero-home.component';
 import { FooterComponent } from './footer/footer.component';
+import { AboutInfoComponent } from './about-info/about-info.component';
+import { AboutHeroComponent } from './about-hero/about-hero.component';
 
 // Definir rutas
 const routes: Route[] = [
@@ -27,7 +29,9 @@ const routes: Route[] = [
     HeroComponent,
     BannerArticleComponent,
     HeroHomeComponent,
-    FooterComponent
+    FooterComponent,
+    AboutInfoComponent,
+    AboutHeroComponent
   ],
   imports: [
     BrowserModule,
